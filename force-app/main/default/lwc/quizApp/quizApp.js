@@ -3,6 +3,8 @@ import { LightningElement } from 'lwc';
 export default class QuizApp extends LightningElement {
 
     selected = {}; // for storing answers
+    correctAnswers = 0; // to show the number of correct aswers
+    isSubmitted = false; // use to show the result
 
     myQuestions = [
         {
@@ -37,9 +39,23 @@ export default class QuizApp extends LightningElement {
         }
     ]
 
+    // used for disabling the submit button
+    get allNotSelected(){
+        return !(Object.keys(this.selected).length === this.myQuestions.length);
+    }
+
+    // for applying dynamic styling to our result
+    get isScoreFull(){
+        return `slds-text-heading_large ${this.myQuestions.length === this.correctAnswers 
+            ? 'slds-text-color_success' 
+            : 'slds-text-color_error'}`
+        ;
+    }
+
+    // changeHandler get's called on every click on the options
     changeHandler(event){
-        console.log('name', event.target.name)
-        console.log('value', event.target.value)
+        // console.log('name', event.target.name)
+        // console.log('value', event.target.value)
 
         const {name, value} = event.target;
         // const name = event.target.name;
@@ -49,11 +65,20 @@ export default class QuizApp extends LightningElement {
         // this.selected = {...this.selected, ['Question1']:'a'};
     }
 
-    submitHandler(){
-
+    // form submit handler
+    submitHandler(event){
+        event.preventDefault();
+        // this.selected = {'Question1':'a', 'Question1':'b', 'Question1':'c'}
+        let correct = this.myQuestions.filter(item=>this.selected[item.id] === item.correctAwnser);
+        this.correctAnswers = correct.length;
+        this.isSubmitted = true;
+        //console.log('this.correctAnswers', this.correctAnswers);
     }
 
+    // form reset handler
     resetHandler(){
-        
-    }    
+        this.selected = {};
+        this.correctAnswers = 0;
+        this.isSubmitted = false;
+    }
 }
