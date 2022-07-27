@@ -1,3 +1,48 @@
 <template>
-    
+    <lightning-card title="Quiz App in LWC">
+        <div class="slds-m-around_medium">
+            
+            <!-- <div class="slds-m-around_medium"> -->
+            <form action="">
+                <template for:each={myQuestions} for:item="quiz">
+                    <div key={quiz.id} class="slds-m-bottom_medium">
+                        <div>
+                            <strong>{quiz.id}:&nbsp;{quiz.question}</strong>
+                        </div>
+                        <div class="slds-grid slds-gutters slds-p-bottom_medium">
+                            <div class="slds-col ">
+                                <input type="radio" name={quiz.id} value="a" onchange={changeHandler} />
+                                <span>{quiz.answer.a}</span>
+                            </div>
+                            <div class="slds-col ">
+                                <input type="radio" name={quiz.id} value="b" onchange={changeHandler} />
+                                <span>{quiz.answer.b}</span>
+                            </div>
+                            <div class="slds-col ">
+                                <input type="radio" name={quiz.id} value="c" onchange={changeHandler} />
+                                <span>{quiz.answer.c}</span>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+                <lightning-button 
+                            variant="brand" 
+                            type="submit" 
+                            label="Submit"
+                            title="Submit Quiz"
+                            class="slds-m-around_small"
+                            onclick={submitHandler}>
+                </lightning-button>
+                <lightning-button 
+                            variant="brand" 
+                            type="reset" 
+                            label="Reset"
+                            title="Reset Quiz"
+                            class="slds-m-around_small"
+                            onclick={resetHandler}>
+                </lightning-button>
+            </form>
+            <!-- </div> -->
+        </div>
+    </lightning-card>
 </template>
