@@ -51,7 +51,10 @@
         <!--members>quizApp</members-->
         <!--members>helloParentComponent</members-->
         <!--members>helloChildComponent</members-->
-        <members>cssInLWC</members>
+        <!--members>cssInLWC</members-->
+        <members>cssLibrary</members>
+        <members>stylingOne</members>
+        <members>stylingTwo</members>
         <name>LightningComponentBundle</name>
     </types>
 
