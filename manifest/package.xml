@@ -36,21 +36,22 @@
 		<name>CustomApplication</name>
 	</types-->    
 
-    <!--types>
-        <members>LWC_Fundamentals</members>
     <types>
-        <members>Quiz_App</members>
+        <!--members>LWC_Fundamentals</members-->
+        <!--members>Quiz_App</members-->
+        <members>Styling_in_LWC</members>
         <name>FlexiPage</name>
-    </types-->
+    </types>
 
     <types>
         <!--members>quizApp</members-->
         <!--members>helloParentComponent</members-->
         <!--members>helloChildComponent</members-->
-        <members>helloQuerySelectorDemo</members>
-        <members>quizApp</members>
+        <!--members>helloQuerySelectorDemo</members-->
+        <!--members>quizApp</members-->
         <!--members>helloParentComponent</members-->
         <!--members>helloChildComponent</members-->
+        <members>cssInLWC</members>
         <name>LightningComponentBundle</name>
     </types>
 
