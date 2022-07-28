@@ -31,25 +31,24 @@
     </types>
     -->
 
-    <!--
-    <types>
-        <members>LWC_Fundamentals</members>
-        <name>FlexiPage</name>
-    </types>
-    -->
-
-    <types>
+    <!--types>
 		<members>Zero_to_Hero_in_LWC</members>
 		<name>CustomApplication</name>
-	</types>    
+	</types-->    
 
-    <types>
-        <!--members>LWC_Fundamentals</members-->
+    <!--types>
+        <members>LWC_Fundamentals</members>
         <members>Quiz_App</members>
         <name>FlexiPage</name>
-    </types>
-    
+    </types-->
 
+    <types>
+        <!--members>quizApp</members-->
+        <!--members>helloParentComponent</members-->
+        <!--members>helloChildComponent</members-->
+        <members>helloQuerySelectorDemo</members>
+        <name>LightningComponentBundle</name>
+    </types>
 
     <version>55.0</version>
 </Package>
