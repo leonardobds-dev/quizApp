@@ -31,12 +31,23 @@
     </types>
     -->
 
+    <!--types>
+		<members>Zero_to_Hero_in_LWC</members>
+		<name>CustomApplication</name>
+	</types-->    
+
+    <!--types>
+        <members>LWC_Fundamentals</members>
     <types>
         <members>Quiz_App</members>
         <name>FlexiPage</name>
-    </types>
+    </types-->
 
     <types>
+        <!--members>quizApp</members-->
+        <!--members>helloParentComponent</members-->
+        <!--members>helloChildComponent</members-->
+        <members>helloQuerySelectorDemo</members>
         <members>quizApp</members>
         <!--members>helloParentComponent</members-->
         <!--members>helloChildComponent</members-->
