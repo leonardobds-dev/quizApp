@@ -38,6 +38,7 @@
 
     <!--types>
         <members>LWC_Fundamentals</members>
+    <types>
         <members>Quiz_App</members>
         <name>FlexiPage</name>
     </types-->
@@ -47,6 +48,9 @@
         <!--members>helloParentComponent</members-->
         <!--members>helloChildComponent</members-->
         <members>helloQuerySelectorDemo</members>
+        <members>quizApp</members>
+        <!--members>helloParentComponent</members-->
+        <!--members>helloChildComponent</members-->
         <name>LightningComponentBundle</name>
     </types>
 
