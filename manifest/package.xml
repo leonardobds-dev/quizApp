@@ -32,9 +32,16 @@
     -->
 
     <types>
-        <members>quizApp</members>
-        <name>LightningComponentBundle</name>
+        <members>LWC_Fundamentals</members>
+        <name>FlexiPage</name>
     </types>
+
+    <!--types>
+        <members>quizApp</members>
+        <members>helloParentComponent</members>
+        <members>helloChildComponent</members>
+        <name>LightningComponentBundle</name>
+    </types-->
 
     <version>55.0</version>
 </Package>
