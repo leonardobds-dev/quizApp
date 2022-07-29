@@ -39,6 +39,12 @@
                 <identifier>c_stylingTwo</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>dynamicCss</componentName>
+                <identifier>c_dynamicCss</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>region3</name>
         <type>Region</type>
     </flexiPageRegions>
