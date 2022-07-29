@@ -1,21 +1,23 @@
 import { LightningElement } from 'lwc';
 
 export default class LifeCycleParent extends LightningElement {
-    constructor(){
+
+    isChildVisible = false;
+
+    constructor(){ 
         super();
-        console.log('parent contructor called');
+        console.log("parent constructor called");
     }
 
-    connectedCallback(){
-        console.log('parent connectedCallback called');
+    connectedCallback(){ 
+        console.log("parent connectedCallback called");
     }
 
-    renderedCallback(){
-        console.log('parent renderedCallback called');
+    renderedCallback(){ 
+        console.log("parent renderedCallback called");
     }
 
-    name;
-    changeHandler(event){
-        this.name = event.target.value;
+    handleClick(){ 
+        this.isChildVisible = !this.isChildVisible;
     }
 }
