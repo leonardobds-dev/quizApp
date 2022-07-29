@@ -34,27 +34,37 @@
     <!--types>
 		<members>Zero_to_Hero_in_LWC</members>
 		<name>CustomApplication</name>
-	</types-->    
+	</types-->
 
-    <!--types-->
-        <!--members>LWC_Fundamentals</members-->
-        <!--members>Quiz_App</members-->
-        <!--members>Styling_in_LWC</members-->
-        <!--name>FlexiPage</name-->
-    <!--/types-->
+    <!--types>
+        <members>quizApp</members>
+        <members>helloParentComponent</members>
+        <members>helloChildComponent</members>
+        <members>helloQuerySelectorDemo</members>
+        <members>quizApp</members>
+        <members>helloParentComponent</members>
+        <members>helloChildComponent</members>
+        <members>cssInLWC</members>
+        <members>cssLibrary</members>
+        <members>stylingOne</members>
+        <members>stylingTwo</members>
+        <members>dynamicCss</members>
+        <name>LightningComponentBundle</name>
+    </types-->
+
+    <!--types>
+        <members>LWC_Fundamentals</members>
+        <members>Quiz_App</members>
+        <members>Styling_in_LWC</members>
+        <name>FlexiPage</name>
+    </types-->
 
     <types>
-        <!--members>quizApp</members-->
-        <!--members>helloParentComponent</members-->
-        <!--members>helloChildComponent</members-->
-        <!--members>helloQuerySelectorDemo</members-->
-        <!--members>quizApp</members-->
-        <!--members>helloParentComponent</members-->
-        <!--members>helloChildComponent</members-->
-        <!--members>cssInLWC</members-->
-        <!--members>cssLibrary</members-->
-        <!--members>stylingOne</members-->
-        <!--members>stylingTwo</members-->
+        <members>Styling_in_LWC</members>
+        <name>FlexiPage</name>
+    </types>
+
+    <types>
         <members>dynamicCss</members>
         <name>LightningComponentBundle</name>
     </types>

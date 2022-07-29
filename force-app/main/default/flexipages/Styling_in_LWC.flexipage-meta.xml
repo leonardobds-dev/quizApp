@@ -7,14 +7,20 @@
                 <identifier>c_cssInLWC</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>designSystemDemo</componentName>
+                <identifier>c_designSystemDemo</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>region1</name>
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <componentName>designSystemDemo</componentName>
-                <identifier>c_designSystemDemo</identifier>
+                <componentName>shadowDomStyling</componentName>
+                <identifier>c_shadowDomStyling</identifier>
             </componentInstance>
         </itemInstances>
         <name>region2</name>
