@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 
-    <!--types>
+    <!--
+
+    <types>
 		<members>Zero_to_Hero_in_LWC</members>
 		<name>CustomApplication</name>
 	</types>
@@ -9,13 +11,15 @@
     <types>
         <members>Lifecycle_Hooks</members>
         <name>FlexiPage</name>
-    </types-->
+    </types>
+
+    -->
 
     <types>
-        <members>lifeCycleParent</members>
-        <members>lifeCycleChild</members>
+        <members>renderMethod</members>
         <name>LightningComponentBundle</name>
     </types>
+
 
     <version>55.0</version>
 
