@@ -7,11 +7,12 @@
     </types>
 
     <types>
-        <members>c2pModalComponent</members>
-        <members>c2pParentComponent</members>        
+        <members>pubsub</members>
+        <members>pubsubComponentA</members>
+        <members>pubsubComponentB</members>
         <name>LightningComponentBundle</name>
     </types>
     
     <version>55.0</version>
-    
+
 </Package>

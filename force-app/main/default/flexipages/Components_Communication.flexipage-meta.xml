@@ -13,6 +13,12 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentName>pubsubComponentA</componentName>
+                <identifier>c_pubsubComponentA</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
                 <componentName>c2pParentComponent</componentName>
                 <identifier>c_c2pParentComponent</identifier>
             </componentInstance>
@@ -21,6 +27,12 @@
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentName>pubsubComponentB</componentName>
+                <identifier>c_pubsubComponentB</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>region3</name>
         <type>Region</type>
     </flexiPageRegions>
