@@ -1,73 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <!--
+    
     <types>
-        <members>*</members>
-        <name>ApexClass</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexComponent</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexPage</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexTestSuite</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexTrigger</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>AuraDefinitionBundle</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>StaticResource</name>
-    </types>
-    -->
-
-    <!--types>
-		<members>Zero_to_Hero_in_LWC</members>
-		<name>CustomApplication</name>
-	</types-->
-
-    <!--types>
-        <members>quizApp</members>
-        <members>helloParentComponent</members>
-        <members>helloChildComponent</members>
-        <members>helloQuerySelectorDemo</members>
-        <members>quizApp</members>
-        <members>helloParentComponent</members>
-        <members>helloChildComponent</members>
-        <members>cssInLWC</members>
-        <members>cssLibrary</members>
-        <members>stylingOne</members>
-        <members>stylingTwo</members>
-        <members>dynamicCss</members>
-        <name>LightningComponentBundle</name>
-    </types-->
-
-    <!--types>
-        <members>LWC_Fundamentals</members>
-        <members>Quiz_App</members>
-        <members>Styling_in_LWC</members>
-        <name>FlexiPage</name>
-    </types-->
-
-    <types>
-        <members>Styling_in_LWC</members>
+        <members>Components_Communication</members>
         <name>FlexiPage</name>
     </types>
 
     <types>
-        <members>dynamicCss</members>
+        <members>pubsub</members>
+        <members>pubsubComponentA</members>
+        <members>pubsubComponentB</members>
         <name>LightningComponentBundle</name>
     </types>
-
+    
     <version>55.0</version>
+
 </Package>
