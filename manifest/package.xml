@@ -7,8 +7,8 @@
     </types-->
 
     <types>
-        <members>setterDemoParent</members>
-        <members>setterDemoChild</members>
+        <members>slotParentDemo</members>
+        <members>slotChildDemo</members>
         <name>LightningComponentBundle</name>
     </types>
     
