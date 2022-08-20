@@ -13,6 +13,12 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentName>slotParentDemo</componentName>
+                <identifier>c_slotParentDemo</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
                 <componentName>pubsubComponentA</componentName>
                 <identifier>c_pubsubComponentA</identifier>
             </componentInstance>
