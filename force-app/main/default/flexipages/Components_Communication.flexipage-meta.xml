@@ -13,6 +13,12 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentName>slotParentDemo</componentName>
+                <identifier>c_slotParentDemo</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
                 <componentName>pubsubComponentA</componentName>
                 <identifier>c_pubsubComponentA</identifier>
             </componentInstance>
@@ -23,14 +29,20 @@
                 <identifier>c_c2pParentComponent</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>pubsubComponentB</componentName>
+                <identifier>c_pubsubComponentB</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>region2</name>
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <componentName>pubsubComponentB</componentName>
-                <identifier>c_pubsubComponentB</identifier>
+                <componentName>setterDemoParent</componentName>
+                <identifier>c_setterDemoParent</identifier>
             </componentInstance>
         </itemInstances>
         <name>region3</name>
