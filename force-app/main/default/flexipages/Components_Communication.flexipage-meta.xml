@@ -57,6 +57,12 @@
                 <identifier>c_reusableComponentDemo</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>AuraLwcCommunication</componentName>
+                <identifier>c_AuraLwcCommunication</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>region3</name>
         <type>Region</type>
     </flexiPageRegions>

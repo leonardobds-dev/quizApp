@@ -5,10 +5,16 @@
         <members>Components_Communication</members>
         <name>FlexiPage</name>
     </types>
-
+    
+    <types>
+        <members>AuraLwcCommunication</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    
     <types>
         <members>reusableComponentDemo</members>
         <members>customLightningCard</members>
+        <members>lwcAuraCommunication</members>
         <name>LightningComponentBundle</name>
     </types>
     
