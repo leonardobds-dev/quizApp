@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     
-    <types>
+    <!--types>
         <members>Components_Communication</members>
         <name>FlexiPage</name>
     </types>
@@ -16,6 +16,11 @@
         <members>customLightningCard</members>
         <members>lwcAuraCommunication</members>
         <name>LightningComponentBundle</name>
+    </types-->
+
+    <types>
+        <members>*</members>
+        <name>LightningMessageChannel</name>
     </types>
     
     <version>55.0</version>
