@@ -16,6 +16,7 @@
     <tabs>Styling_in_LWC</tabs>
     <tabs>Lifecycle_Hooks</tabs>
     <tabs>Components_Communication</tabs>
+    <tabs>Lightning_Message_Service</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Zero_to_Hero_in_LWC_UtilityBar</utilityBar>
 </CustomApplication>

@@ -1,27 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    
-    <!--types>
-        <members>Components_Communication</members>
-        <name>FlexiPage</name>
-    </types>
-    
-    <types>
-        <members>AuraLwcCommunication</members>
-        <name>AuraDefinitionBundle</name>
-    </types>
-    
-    <types>
-        <members>reusableComponentDemo</members>
-        <members>customLightningCard</members>
-        <members>lwcAuraCommunication</members>
-        <name>LightningComponentBundle</name>
-    </types-->
 
     <types>
-        <members>*</members>
-        <name>LightningMessageChannel</name>
+		<members>Zero_to_Hero_in_LWC</members>
+		<name>CustomApplication</name>
+	</types>
+    
+    <types>
+        <members>Lightning_Message_Service</members>
+        <name>FlexiPage</name>
     </types>
+   
+    <types>
+        <members>lmsComponentA</members>
+        <members>lmsComponentX</members>
+        <name>LightningComponentBundle</name>
+    </types>    
+
+    <types>
+        <members>SampleMessageChannel</members>
+        <name>LightningMessageChannel</name>
+    </types>   
     
     <version>55.0</version>
 
