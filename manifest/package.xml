@@ -18,8 +18,6 @@
         <name>LightningMessageChannel</name>
     </types>
 
-    -->
-
     <types>
         <members>Lightning_Message_Service</members>
         <name>FlexiPage</name>
@@ -28,7 +26,15 @@
     <types>
         <members>lmsAuraComponent</members>
         <name>AuraDefinitionBundle</name>
+    </types>    
+
+    -->
+
+    <types>
+        <members>lsmVisualForceDemo</members>
+        <name>ApexPage</name>
     </types>
+    
     
     <version>55.0</version>
 
