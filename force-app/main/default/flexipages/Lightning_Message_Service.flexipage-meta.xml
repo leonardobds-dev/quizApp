@@ -7,20 +7,26 @@
                 <identifier>c_lmsComponentA</identifier>
             </componentInstance>
         </itemInstances>
-        <name>region1</name>
-        <type>Region</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <name>region2</name>
-        <type>Region</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
         <itemInstances>
             <componentInstance>
                 <componentName>lmsComponentX</componentName>
                 <identifier>c_lmsComponentX</identifier>
             </componentInstance>
         </itemInstances>
+        <name>region1</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentName>lmsAuraComponent</componentName>
+                <identifier>c_lmsAuraComponent</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>region2</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
         <name>region3</name>
         <type>Region</type>
     </flexiPageRegions>
