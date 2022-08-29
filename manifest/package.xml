@@ -2,24 +2,9 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 
     <types>
-		<members>Zero_to_Hero_in_LWC</members>
-		<name>CustomApplication</name>
-	</types>
-
-    <types>
         <members>Static_Resources_Context_and_Notification</members>
         <name>FlexiPage</name>
     </types>
-
-    <types>
-        <members>staticImages</members>
-        <name>LightningComponentBundle</name>
-    </types>
-
-    <types>
-		<members>user_image</members>
-		<name>StaticResource</name>
-	</types>
     
     <version>55.0</version>
 
