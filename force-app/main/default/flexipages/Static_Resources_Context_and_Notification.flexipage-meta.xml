@@ -7,6 +7,12 @@
                 <identifier>c_staticImages</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>thirdPartyFiles</componentName>
+                <identifier>c_thirdPartyFiles</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>region1</name>
         <type>Region</type>
     </flexiPageRegions>
