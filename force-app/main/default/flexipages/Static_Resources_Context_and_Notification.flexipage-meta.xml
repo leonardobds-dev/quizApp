@@ -19,6 +19,12 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentName>checkPermissionDemo</componentName>
+                <identifier>c_checkPermissionDemo</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
                 <componentName>contentAssetFiles</componentName>
                 <identifier>c_contentAssetFiles</identifier>
             </componentInstance>
