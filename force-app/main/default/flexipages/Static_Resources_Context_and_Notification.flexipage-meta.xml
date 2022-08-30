@@ -19,6 +19,12 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentName>formFactorDemo</componentName>
+                <identifier>c_formFactorDemo</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
                 <componentName>checkPermissionDemo</componentName>
                 <identifier>c_checkPermissionDemo</identifier>
             </componentInstance>
