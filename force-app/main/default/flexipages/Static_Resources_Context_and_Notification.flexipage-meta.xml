@@ -57,6 +57,12 @@
                 <identifier>c_userInformation</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>notifications</componentName>
+                <identifier>c_notifications</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>region3</name>
         <type>Region</type>
     </flexiPageRegions>
