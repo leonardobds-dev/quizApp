@@ -10,6 +10,11 @@
         <members>Memory_Game_in_LWC</members>
         <name>FlexiPage</name>
     </types>
+
+    <types>
+        <members>memoryGameLWC</members>
+        <name>LightningComponentBundle</name>
+    </types>
     
     <version>55.0</version>
 
