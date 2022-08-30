@@ -2,7 +2,12 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 
     <types>
-        <members>Static_Resources_Context_and_Notification</members>
+		<members>Zero_to_Hero_in_LWC</members>
+		<name>CustomApplication</name>
+	</types>
+
+    <types>
+        <members>Memory_Game_in_LWC</members>
         <name>FlexiPage</name>
     </types>
     

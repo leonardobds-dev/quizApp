@@ -12,6 +12,7 @@
     <label>Zero to Hero in LWC</label>
     <navType>Standard</navType>
     <tabs>LWC_Fundamentals</tabs>
+    <tabs>Memory_Game_in_LWC</tabs>
     <tabs>Quiz_App</tabs>
     <tabs>Styling_in_LWC</tabs>
     <tabs>Lifecycle_Hooks</tabs>
