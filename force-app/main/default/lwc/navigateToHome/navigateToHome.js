@@ -12,4 +12,13 @@ export default class NavigateToHome extends NavigationMixin(LightningElement) {
         });
     }
 
+    navigateToChatter(){
+        this[NavigationMixin.Navigate]({
+            type: 'standard__namedPage',
+            attributes: {
+                pageName: 'chatter'
+            }
+        });
+    }
+
 }
