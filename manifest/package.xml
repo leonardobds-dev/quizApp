@@ -13,6 +13,7 @@
 
     <types>
         <members>navigateToHome</members>
+        <members>navigateToObjectPage</members>
         <name>LightningComponentBundle</name>
     </types>
     
