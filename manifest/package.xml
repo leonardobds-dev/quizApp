@@ -7,12 +7,12 @@
 	</types>
 
     <types>
-        <members>Memory_Game_in_LWC</members>
+        <members>Navigation</members>
         <name>FlexiPage</name>
     </types>
 
     <types>
-        <members>memoryGameLWC</members>
+        <members>navigateToHome</members>
         <name>LightningComponentBundle</name>
     </types>
     
