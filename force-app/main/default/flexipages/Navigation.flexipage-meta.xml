@@ -57,6 +57,12 @@
                 <identifier>c_navigateToAuraComponent</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>navigateToVFPage</componentName>
+                <identifier>c_navigateToVFPage</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>region3</name>
         <type>Region</type>
     </flexiPageRegions>
