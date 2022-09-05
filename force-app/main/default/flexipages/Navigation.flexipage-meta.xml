@@ -7,6 +7,18 @@
                 <identifier>c_navigateToHome</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>navigateToRecordPage</componentName>
+                <identifier>c_navigateToRecordPage</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>navigateToNavItemPage</componentName>
+                <identifier>c_navigateToNavItemPage</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>region1</name>
         <type>Region</type>
     </flexiPageRegions>
