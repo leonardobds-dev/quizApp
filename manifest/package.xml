@@ -8,7 +8,9 @@
 
     <types>
         <!--members>navigateToRelatedRelationship</members-->
-        <members>navigateToWebPage</members>
+        <!--members>navigateToWebPage</members-->
+        <members>navigateToLWC</members>
+        <members>navigationLWCTarget</members>
         <name>LightningComponentBundle</name>
     </types>    
     
