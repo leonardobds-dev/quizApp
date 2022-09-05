@@ -7,10 +7,16 @@
     </types>
 
     <types>
+        <members>AuraNavigation</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+
+    <types>
         <!--members>navigateToRelatedRelationship</members-->
         <!--members>navigateToWebPage</members-->
-        <members>navigateToLWC</members>
-        <members>navigationLWCTarget</members>
+        <!--members>navigateToLWC</members-->
+        <!--members>navigationLWCTarget</members-->
+        <members>navigateToAuraComponent</members>
         <name>LightningComponentBundle</name>
     </types>    
     

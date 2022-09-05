@@ -51,6 +51,12 @@
                 <identifier>c_navigateToLWC</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>navigateToAuraComponent</componentName>
+                <identifier>c_navigateToAuraComponent</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>region3</name>
         <type>Region</type>
     </flexiPageRegions>
