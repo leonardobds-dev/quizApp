@@ -7,7 +7,7 @@
     </types>
 
     <types>
-        <members>navigateToNavItemPage</members>
+        <members>navigateToRelatedRelationship</members>
         <name>LightningComponentBundle</name>
     </types>    
     

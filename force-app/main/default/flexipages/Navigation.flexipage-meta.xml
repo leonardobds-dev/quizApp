@@ -29,6 +29,12 @@
                 <identifier>c_navigateToObjectPage</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>navigateToRelatedRelationship</componentName>
+                <identifier>c_navigateToRelatedRelationship</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>region2</name>
         <type>Region</type>
     </flexiPageRegions>
