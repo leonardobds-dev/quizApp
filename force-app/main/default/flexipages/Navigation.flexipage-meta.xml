@@ -19,6 +19,12 @@
                 <identifier>c_navigateToNavItemPage</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>navigateToWebPage</componentName>
+                <identifier>c_navigateToWebPage</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>region1</name>
         <type>Region</type>
     </flexiPageRegions>
