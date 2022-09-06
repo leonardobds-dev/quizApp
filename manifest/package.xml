@@ -35,7 +35,8 @@
         <!--members>navigateToVFPage</members-->
         <!--members>currentReference</members-->
         <!--members>recordFormDemo</members-->
-        <members>recordViewFormDemo</members>
+        <!--members>recordViewFormDemo</members-->
+        <members>recordEditFormDemo</members>
         <name>LightningComponentBundle</name>
     </types>    
     
