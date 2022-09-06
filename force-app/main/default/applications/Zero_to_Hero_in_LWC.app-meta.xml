@@ -20,6 +20,7 @@
     <tabs>Lightning_Message_Service</tabs>
     <tabs>Static_Resources_Context_Notification</tabs>
     <tabs>Navigation</tabs>
+    <tabs>Base_Components</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Zero_to_Hero_in_LWC_UtilityBar</utilityBar>
 </CustomApplication>

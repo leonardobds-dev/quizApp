@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
+
+    <types>
+        <members>Zero_to_Hero_in_LWC</members>
+        <name>CustomApplication</name>
+    </types>
     
     <types>
-        <members>Navigation</members>
+        <!--members>Navigation</members-->
+        <members>Base_Components</members>
         <name>FlexiPage</name>
     </types>    
 
@@ -28,7 +34,8 @@
         <!--members>navigationLWCTarget</members-->
         <!--members>navigateToAuraComponent</members-->
         <!--members>navigateToVFPage</members-->
-        <members>currentReference</members>
+        <!--members>currentReference</members-->
+        <members>recordFormDemo</members>
         <name>LightningComponentBundle</name>
     </types>    
     
