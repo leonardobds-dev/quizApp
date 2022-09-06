@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 
+    <!--
     <types>
         <members>Zero_to_Hero_in_LWC</members>
         <name>CustomApplication</name>
     </types>
+    -->
     
     <types>
         <!--members>Navigation</members-->
@@ -13,9 +15,6 @@
     </types>    
 
     <!--
-
-    
-
     <types>
         <members>AuraNavigation</members>
         <name>AuraDefinitionBundle</name>
@@ -35,7 +34,8 @@
         <!--members>navigateToAuraComponent</members-->
         <!--members>navigateToVFPage</members-->
         <!--members>currentReference</members-->
-        <members>recordFormDemo</members>
+        <!--members>recordFormDemo</members-->
+        <members>recordViewFormDemo</members>
         <name>LightningComponentBundle</name>
     </types>    
     
