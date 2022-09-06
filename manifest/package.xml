@@ -39,7 +39,8 @@
         <!--members>recordViewFormDemo</members-->
         <!--members>recordEditFormDemo</members-->
         <!--members>recordEditCustomDemo</members-->
-        <members>wireUserDetailDemo</members>
+        <!--members>wireUserDetailDemo</members-->
+        <members>getObjectInfoDemo</members>
         <name>LightningComponentBundle</name>
     </types>
     
