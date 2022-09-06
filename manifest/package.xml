@@ -16,10 +16,10 @@
     </types>
     -->
 
-    <types>
+    <!--types>
         <members>navigateVFPage</members>
         <name>ApexPage</name>
-    </types>    
+    </types-->    
 
     <types>
         <!--members>navigateToRelatedRelationship</members-->
@@ -27,7 +27,8 @@
         <!--members>navigateToLWC</members-->
         <!--members>navigationLWCTarget</members-->
         <!--members>navigateToAuraComponent</members-->
-        <members>navigateToVFPage</members>
+        <!--members>navigateToVFPage</members-->
+        <members>currentReference</members>
         <name>LightningComponentBundle</name>
     </types>    
     

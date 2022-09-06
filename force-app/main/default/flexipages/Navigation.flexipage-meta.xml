@@ -63,6 +63,12 @@
                 <identifier>c_navigateToVFPage</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>currentReference</componentName>
+                <identifier>c_currentReference</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>region3</name>
         <type>Region</type>
     </flexiPageRegions>
