@@ -24,7 +24,7 @@
     <!--types>
         <members>navigateVFPage</members>
         <name>ApexPage</name>
-    </types-->    
+    </types-->
 
     <types>
         <!--members>navigateToRelatedRelationship</members-->
@@ -36,9 +36,10 @@
         <!--members>currentReference</members-->
         <!--members>recordFormDemo</members-->
         <!--members>recordViewFormDemo</members-->
-        <members>recordEditFormDemo</members>
+        <!--members>recordEditFormDemo</members-->
+        <members>recordEditCustomDemo</members>
         <name>LightningComponentBundle</name>
-    </types>    
+    </types>
     
     <version>55.0</version>
 

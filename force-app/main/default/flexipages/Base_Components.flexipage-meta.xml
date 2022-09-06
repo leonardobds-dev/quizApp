@@ -17,6 +17,12 @@
                 <identifier>c_recordViewFormDemo</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>recordEditCustomDemo</componentName>
+                <identifier>c_recordEditCustomDemo</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>region2</name>
         <type>Region</type>
     </flexiPageRegions>
