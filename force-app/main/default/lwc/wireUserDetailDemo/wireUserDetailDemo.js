@@ -10,7 +10,7 @@ export default class WireUserDetailDemo extends LightningElement {
     userDetailFunction;
 
     //@wire(getRecord, {recordId: Id, fields: [NAME_FIELD, EMAIL_FIELD]})
-    @wire(getRecord, {recordId: Id, fields})
+    @wire(getRecord, {recordId: '$userId', fields})
     userDetailHandler({data, error}){
         if(data){
             this.userDetailFunction = data.fields;
@@ -20,6 +20,6 @@ export default class WireUserDetailDemo extends LightningElement {
         }
     }
 
-    @wire(getRecord, {recordId: Id, fields: [NAME_FIELD, EMAIL_FIELD]})
+    @wire(getRecord, {recordId: '$userId', fields: [NAME_FIELD, EMAIL_FIELD]})
     userDetailProperty;
 }
