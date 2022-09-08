@@ -146,6 +146,12 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentName>getRecordDemo</componentName>
+                <identifier>c_getRecordDemo</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
                 <componentInstanceProperties>
                     <name>tabs</name>
                     <value>maintabs</value>
@@ -218,6 +224,12 @@
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentName>recordFormDemo</componentName>
+                <identifier>c_recordFormDemo</identifier>
+            </componentInstance>
+        </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentName>recordIdAndObjectName</componentName>

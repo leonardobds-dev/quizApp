@@ -11,7 +11,8 @@
     <types>
         <!--members>Navigation</members-->
         <!--members>Base_Components</members-->
-        <members>Wire_Service</members>
+        <!--members>Wire_Service</members-->
+        <members>Account_Record_Page</members>
         <name>FlexiPage</name>
     </types>    
 
