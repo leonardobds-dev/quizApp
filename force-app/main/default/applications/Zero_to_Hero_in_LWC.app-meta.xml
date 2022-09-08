@@ -22,6 +22,7 @@
     <tabs>Navigation</tabs>
     <tabs>Base_Components</tabs>
     <tabs>Wire_Service</tabs>
+    <tabs>CRUD_uiRecordAPI</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Zero_to_Hero_in_LWC_UtilityBar</utilityBar>
 </CustomApplication>
