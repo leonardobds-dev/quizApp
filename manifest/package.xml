@@ -1,40 +1,57 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 
-    <!--
+    
     <types>
-		<members>Zero_to_Hero_in_LWC</members>
-		<name>CustomApplication</name>
-	</types>
-   
-    <types>
-        <members>lmsComponentA</members>
-        <members>lmsComponentX</members>
-        <name>LightningComponentBundle</name>
-    </types>    
-
-    <types>
-        <members>SampleMessageChannel</members>
-        <name>LightningMessageChannel</name>
+        <members>Zero_to_Hero_in_LWC</members>
+        <name>CustomApplication</name>
     </types>
-
+    
+    
     <types>
-        <members>Lightning_Message_Service</members>
+        <!--members>Navigation</members-->
+        <!--members>Base_Components</members-->
+        <!--members>Wire_Service</members-->
+        <!--members>Account_Record_Page</members-->
+        <members>CRUD_uiRecordAPI</members>
         <name>FlexiPage</name>
     </types>    
 
+    <!--
     <types>
-        <members>lmsAuraComponent</members>
+        <members>AuraNavigation</members>
         <name>AuraDefinitionBundle</name>
-    </types>    
-
+    </types>
     -->
 
-    <types>
-        <members>lsmVisualForceDemo</members>
+    <!--types>
+        <members>navigateVFPage</members>
         <name>ApexPage</name>
+    </types-->
+
+    <types>
+        <!--members>navigateToRelatedRelationship</members-->
+        <!--members>navigateToWebPage</members-->
+        <!--members>navigateToLWC</members-->
+        <!--members>navigationLWCTarget</members-->
+        <!--members>navigateToAuraComponent</members-->
+        <!--members>navigateToVFPage</members-->
+        <!--members>currentReference</members-->
+        <!--members>recordFormDemo</members-->
+        <!--members>recordViewFormDemo</members-->
+        <!--members>recordEditFormDemo</members-->
+        <!--members>recordEditCustomDemo</members-->
+        <!--members>wireUserDetailDemo</members-->
+        <!--members>getObjectInfoDemo</members-->
+        <!--members>getPickListValues</members-->
+        <!--members>getPicklistValuesByRecordTypeDemo</members-->
+        <!--members>getListUiDemoLwc</members-->
+        <!--members>getNavItemsDemo</members-->
+        <!--members>createRecordDemo</members-->
+        <!--members>updateRecordDemo</members-->
+        <members>deleteRecordDemo</members>
+        <name>LightningComponentBundle</name>
     </types>
-    
     
     <version>55.0</version>
 
