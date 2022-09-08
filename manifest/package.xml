@@ -44,7 +44,8 @@
         <!--members>getObjectInfoDemo</members-->
         <!--members>getPickListValues</members-->
         <!--members>getPicklistValuesByRecordTypeDemo</members-->
-        <members>getListUiDemoLwc</members>        
+        <!--members>getListUiDemoLwc</members-->
+        <members>getNavItemsDemo</members>
         <name>LightningComponentBundle</name>
     </types>
     

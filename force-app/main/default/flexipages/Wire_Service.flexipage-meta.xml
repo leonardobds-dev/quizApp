@@ -7,17 +7,13 @@
                 <identifier>c_wireUserDetailDemo</identifier>
             </componentInstance>
         </itemInstances>
-        <name>region1</name>
-        <type>Region</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
         <itemInstances>
             <componentInstance>
                 <componentName>getObjectInfoDemo</componentName>
                 <identifier>c_getObjectInfoDemo</identifier>
             </componentInstance>
         </itemInstances>
-        <name>region2</name>
+        <name>region1</name>
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -37,6 +33,16 @@
             <componentInstance>
                 <componentName>getPickListValues</componentName>
                 <identifier>c_getPickListValues</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>region2</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentName>getNavItemsDemo</componentName>
+                <identifier>c_getNavItemsDemo</identifier>
             </componentInstance>
         </itemInstances>
         <name>region3</name>
