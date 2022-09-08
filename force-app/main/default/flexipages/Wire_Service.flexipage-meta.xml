@@ -23,6 +23,12 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentName>getPicklistValuesByRecordTypeDemo</componentName>
+                <identifier>c_getPicklistValuesByRecordTypeDemo</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
                 <componentName>getPickListValues</componentName>
                 <identifier>c_getPickListValues</identifier>
             </componentInstance>
