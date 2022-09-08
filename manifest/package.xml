@@ -11,8 +11,8 @@
     <types>
         <!--members>Navigation</members-->
         <!--members>Base_Components</members-->
-        <!--members>Wire_Service</members-->
-        <members>Account_Record_Page</members>
+        <members>Wire_Service</members>
+        <!--members>Account_Record_Page</members-->
         <name>FlexiPage</name>
     </types>    
 
@@ -43,7 +43,8 @@
         <!--members>wireUserDetailDemo</members-->
         <!--members>getObjectInfoDemo</members-->
         <!--members>getPickListValues</members-->
-        <members>getPicklistValuesByRecordTypeDemo</members>
+        <!--members>getPicklistValuesByRecordTypeDemo</members-->
+        <members>getListUiDemoLwc</members>        
         <name>LightningComponentBundle</name>
     </types>
     

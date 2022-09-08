@@ -23,6 +23,12 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentName>getListUiDemoLwc</componentName>
+                <identifier>c_getListUiDemoLwc</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
                 <componentName>getPicklistValuesByRecordTypeDemo</componentName>
                 <identifier>c_getPicklistValuesByRecordTypeDemo</identifier>
             </componentInstance>
