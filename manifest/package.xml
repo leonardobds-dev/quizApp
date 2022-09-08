@@ -41,7 +41,8 @@
         <!--members>recordEditCustomDemo</members-->
         <!--members>wireUserDetailDemo</members-->
         <!--members>getObjectInfoDemo</members-->
-        <members>getPickListValues</members>
+        <!--members>getPickListValues</members-->
+        <members>getPicklistValuesByRecordTypeDemo</members>
         <name>LightningComponentBundle</name>
     </types>
     
