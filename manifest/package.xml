@@ -47,8 +47,9 @@
         <!--members>getPicklistValuesByRecordTypeDemo</members-->
         <!--members>getListUiDemoLwc</members-->
         <!--members>getNavItemsDemo</members-->
-        <members>createRecordDemo</members>
-        <members>updateRecordDemo</members>
+        <!--members>createRecordDemo</members-->
+        <!--members>updateRecordDemo</members-->
+        <members>deleteRecordDemo</members>
         <name>LightningComponentBundle</name>
     </types>
     
