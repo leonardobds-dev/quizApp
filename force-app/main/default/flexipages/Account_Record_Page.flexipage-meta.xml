@@ -146,6 +146,12 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentName>getRecordUiDemo</componentName>
+                <identifier>c_getRecordUiDemo</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
                 <componentName>getRecordDemo</componentName>
                 <identifier>c_getRecordDemo</identifier>
             </componentInstance>
