@@ -45,6 +45,12 @@
                 <identifier>c_getNavItemsDemo</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>createRecordDemo</componentName>
+                <identifier>c_createRecordDemo</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>region3</name>
         <type>Region</type>
     </flexiPageRegions>
