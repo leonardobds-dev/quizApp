@@ -9,14 +9,20 @@
     
     
     <types>
+        <members>LWC_Fundamentals</members>
         <!--members>Navigation</members-->
         <!--members>Base_Components</members-->
         <!--members>Wire_Service</members-->
         <!--members>Account_Record_Page</members-->
         <!--members>CRUD_uiRecordAPI</members-->
-        <members>Books_App</members>
+        <!--members>Books_App</members-->        
         <name>FlexiPage</name>
-    </types>    
+    </types>
+
+    <types>
+        <members>LWC_in_Tab_Demo</members>
+        <name>CustomTab</name>
+    </types>
 
     <!--
     <types>
@@ -51,7 +57,10 @@
         <!--members>createRecordDemo</members-->
         <!--members>updateRecordDemo</members-->
         <!--members>deleteRecordDemo</members-->
-        <members>bookApp</members>
+        <!--members>bookApp</members-->
+        <!--members>lwcConfigDemo</members-->
+        <!--members>lwcIntab</members-->
+        <members>lwcIntab</members>
         <name>LightningComponentBundle</name>
     </types>
     
