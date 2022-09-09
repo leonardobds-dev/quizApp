@@ -24,6 +24,7 @@
     <tabs>Wire_Service</tabs>
     <tabs>CRUD_uiRecordAPI</tabs>
     <tabs>APEX_in_LWC</tabs>
+    <tabs>Books_App</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Zero_to_Hero_in_LWC_UtilityBar</utilityBar>
 </CustomApplication>

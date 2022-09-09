@@ -16,6 +16,7 @@
         <!--members>Account_Record_Page</members-->
         <!--members>CRUD_uiRecordAPI</members-->
         <members>APEX_in_LWC</members>
+        <members>Books_App</members>
         <name>FlexiPage</name>
     </types>
 
@@ -58,6 +59,7 @@
         <!--members>updateRecordDemo</members-->
         <!--members>deleteRecordDemo</members-->
         <members>apexImperativeWithParamsDemo</members>
+        <members>bookApp</members>
         <name>LightningComponentBundle</name>
     </types>
     
