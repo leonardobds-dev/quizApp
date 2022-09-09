@@ -13,7 +13,8 @@
         <!--members>Base_Components</members-->
         <!--members>Wire_Service</members-->
         <!--members>Account_Record_Page</members-->
-        <members>CRUD_uiRecordAPI</members>
+        <!--members>CRUD_uiRecordAPI</members-->
+        <members>Books_App</members>
         <name>FlexiPage</name>
     </types>    
 
@@ -49,7 +50,8 @@
         <!--members>getNavItemsDemo</members-->
         <!--members>createRecordDemo</members-->
         <!--members>updateRecordDemo</members-->
-        <members>deleteRecordDemo</members>
+        <!--members>deleteRecordDemo</members-->
+        <members>bookApp</members>
         <name>LightningComponentBundle</name>
     </types>
     
