@@ -29,8 +29,32 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentInstanceProperties>
+                    <name>age</name>
+                    <value>6</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>heading</name>
+                    <value>LWC Config in LWC</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>levels</name>
+                    <value>High</value>
+                </componentInstanceProperties>
+                <componentName>lwcConfigDemo</componentName>
+                <identifier>c_lwcConfigDemo</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
                 <componentName>helloParentComponent</componentName>
                 <identifier>c_helloParentComponent</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>helloQuerySelectorDemo</componentName>
+                <identifier>c_helloQuerySelectorDemo</identifier>
             </componentInstance>
         </itemInstances>
         <name>region3</name>
