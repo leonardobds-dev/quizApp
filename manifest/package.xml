@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 
-    
+    <!--
     <types>
         <members>Zero_to_Hero_in_LWC</members>
         <name>CustomApplication</name>
     </types>
+    -->
     
     
     <types>
@@ -14,8 +15,14 @@
         <!--members>Wire_Service</members-->
         <!--members>Account_Record_Page</members-->
         <!--members>CRUD_uiRecordAPI</members-->
+        <members>APEX_in_LWC</members>
         <members>Books_App</members>
         <name>FlexiPage</name>
+    </types>
+
+    <types>
+        <members>AccountController</members>
+        <name>ApexClass</name>
     </types>    
 
     <!--
@@ -51,6 +58,7 @@
         <!--members>createRecordDemo</members-->
         <!--members>updateRecordDemo</members-->
         <!--members>deleteRecordDemo</members-->
+        <members>apexImperativeWithParamsDemo</members>
         <members>bookApp</members>
         <name>LightningComponentBundle</name>
     </types>
