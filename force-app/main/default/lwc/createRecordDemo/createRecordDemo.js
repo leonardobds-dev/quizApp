@@ -15,7 +15,7 @@ export default class CreateRecordDemo extends LightningElement {
     createContact(){
         const recordInput = {apiName:CONTACT_OBJECT.objectApiName, fields:this.formFields}
         createRecord(recordInput).then(result=>{
-            this.showToast('Success!!', `contact created with is ${result.id}`)
+            this.showToast('Success!!', `contact created with id ${result.id}`)
             this.template.querySelector('form.createForm').reset()
             this.formFields={}
         }).catch(error=>{

@@ -1,0 +1,52 @@
+<template>
+    <lightning-card title="Search Contacts">
+        <div class = "slds-m-around_medium">
+            <div class="slds-m-bottom_small">
+                <lightning-input type="text" 
+                                 label="Contact Name" 
+                                 value= {mysearchvalue}
+                                 onchange= {handleSearch}>
+                </lightning-input>
+            </div>
+            <lightning-button label="Search Record" varian = "brand" onclick= {handleRecordSearch}></lightning-button>
+            <br/>
+            <!--Tabel to display value-->
+            <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered" aria-label="Example table of Opportunities with vertical borders">
+                <thead>
+                    <tr class="slds-line-height_reset">
+                        <th class="" scope="col">
+                          <div class="slds-truncate" title="Opportunity Name">First Name</div>
+                        </th>
+                        <th class="" scope="col">
+                          <div class="slds-truncate" title="Account Name">Last Name</div>
+                        </th>
+                        <th class="" scope="col">
+                          <div class="slds-truncate" title="Close Date">Phone</div>
+                        </th>
+                        <th class="" scope="col">
+                          <div class="slds-truncate" title="Stage">Email</div>
+                        </th>
+                      </tr>
+                </thead>
+                <tbody>
+                    <template for:each= {contactRecresult} for:item="con">
+                        <tr class="slds-hint-parent" key = {con.id}>
+                            <td>
+                                <div class="slds-truncate" >{con.FirstName}</div>
+                            </td>
+                            <td>
+                                <div class="slds-truncate" >{con.LastName}</div>
+                            </td>
+                            <td>
+                                <div class="slds-truncate" >{con.phone}</div>
+                            </td>
+                            <td>
+                                <div class="slds-truncate" >{con.Email}</div>
+                            </td>
+                        </tr>
+                    </template>
+                </tbody>
+            </table>
+        </div>
+    </lightning-card>
+</template>
